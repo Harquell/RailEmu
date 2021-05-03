@@ -1,0 +1,51 @@
+CONNECTION:
+	=> [1]ProtocolRequired
+		-> Server send protocol version  (required + current version)
+	=> [3]HelloConnect
+		-> Server send Hello message + key
+	=> [4]Identification
+		-> Client send credentials of account
+	=> [20]IdentificationFailed
+		-> Server send identification error
+	=> [21]IdentificationFailedForBadVersion
+		-> Server send version error
+	=> [22]IdentificationSuccess
+		-> Server send success message with account informations
+	=> [30]ServerList
+		-> Server send servers list
+	=> [40]ServerSelection
+		-> Client send selected server id
+	=> [41]SelectedServerRefused
+		-> Server send error of selected server
+	=> [42]SelectedServerData
+		-> Server send selected server data
+	=> [50]ServerStatusUpdate
+		-> Server send update of server status
+	=> [6174]IdentificationFailedBanned
+		-> Server send identification error for being banned
+	=> [6194]IdentificationWithServerId
+		-> Client send credentials + serverID
+
+QUEUE:
+	=> [10]LoginQueueStatus
+		-> Server send  position in queue
+	=> [6100]QueueStatus==> Unknown
+		-> Server send  position in queue
+
+NICKNAME:
+	=> [5638]NickNameRefused
+		-> Send to the client that the nickname is refused
+	=> [5639]NicknameChoiceRequest 
+		-> Send a nickname to the Server
+	=> [5640]NicknameRegistration
+		-> Ask the client for a nickname
+	=> [5641]NicknameAccepted
+		-> Send to the client that the nickname is accepted
+
+SEARCH FRIEND (SERVER LIST):
+	=> [6142]AcquaintanceServerList
+		-> Server send  a list of servers (where the friend is)
+	=> [6143]AcquaintanceSearchError
+		-> Server send  errors on User search
+	=> [6144]AcquaintanceSearch
+		-> Client ask server for a player servers

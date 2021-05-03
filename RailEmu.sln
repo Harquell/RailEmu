@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.Protocol", "RailEmu.Protocol\RailEmu.Protocol.csproj", "{7D2131F8-8F0C-4B5F-96EB-9184A54A0210}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.Common", "RailEmu.Common\RailEmu.Common.csproj", "{89B8CAE6-08FC-44BC-BDC0-BC76B7E48881}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.Auth", "RailEmu.Auth\RailEmu.Auth.csproj", "{5AF641AE-1B8E-4BDF-94F5-3E753DDAAADC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.Launcher", "RailEmu.Launcher\RailEmu.Launcher.csproj", "{822C6075-2C39-41F4-BB54-15F9E2BA3017}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.World", "RailEmu.World\RailEmu.World.csproj", "{75FA2EB9-6228-46ED-9004-1A5F933F7B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailEmu.GameLauncher", "RailEmu.GameLauncher\RailEmu.GameLauncher.csproj", "{5118CA49-D75A-49C2-B1BA-57F5477E7635}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D2131F8-8F0C-4B5F-96EB-9184A54A0210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D2131F8-8F0C-4B5F-96EB-9184A54A0210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D2131F8-8F0C-4B5F-96EB-9184A54A0210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D2131F8-8F0C-4B5F-96EB-9184A54A0210}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89B8CAE6-08FC-44BC-BDC0-BC76B7E48881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89B8CAE6-08FC-44BC-BDC0-BC76B7E48881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89B8CAE6-08FC-44BC-BDC0-BC76B7E48881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89B8CAE6-08FC-44BC-BDC0-BC76B7E48881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AF641AE-1B8E-4BDF-94F5-3E753DDAAADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AF641AE-1B8E-4BDF-94F5-3E753DDAAADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AF641AE-1B8E-4BDF-94F5-3E753DDAAADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AF641AE-1B8E-4BDF-94F5-3E753DDAAADC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{822C6075-2C39-41F4-BB54-15F9E2BA3017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{822C6075-2C39-41F4-BB54-15F9E2BA3017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{822C6075-2C39-41F4-BB54-15F9E2BA3017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{822C6075-2C39-41F4-BB54-15F9E2BA3017}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75FA2EB9-6228-46ED-9004-1A5F933F7B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75FA2EB9-6228-46ED-9004-1A5F933F7B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75FA2EB9-6228-46ED-9004-1A5F933F7B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75FA2EB9-6228-46ED-9004-1A5F933F7B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5118CA49-D75A-49C2-B1BA-57F5477E7635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5118CA49-D75A-49C2-B1BA-57F5477E7635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5118CA49-D75A-49C2-B1BA-57F5477E7635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5118CA49-D75A-49C2-B1BA-57F5477E7635}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA091FAE-F213-4F7E-9B40-821F3CEFC635}
+	EndGlobalSection
+EndGlobal

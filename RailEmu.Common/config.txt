@@ -1,0 +1,13 @@
+﻿#RAIL EMU CONFIG V0.1
+
+#1165 -> 2.0.0.0
+ProtocolVersion : 1375
+AuthServer_Name : RailEmu Auth Server
+Maintenance : false
+Debug : true
+
+Database_Host : localhost
+Database_User : root
+Database_Password : 
+Database_Auth : auth
+Database_World : world
